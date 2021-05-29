@@ -1,0 +1,127 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.span{
+    text-align: right;
+    margin: 5px;
+    background: bisque; 
+}
+
+.burger{
+    font-size: 25px;
+    margin: 0 10px;
+    cursor: pointer;
+    display: none;
+
+}
+.navbar{
+    background: black;
+    color: white;
+    font-family: sans-serif;
+    height: 50px;
+}
+.list-icon{
+    text-align: right;
+    font-size: 12px;
+}
+ul li {
+    display: inline-block;
+    margin: 8px;
+    list-style: none;
+    cursor: pointer;
+    background: black;
+}
+
+.navbar img{
+    float: left;
+    margin-left: 20px;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.nav-3 ul li{
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.nav-3 ul :hover{
+    background: brown;
+}
+
+
+h2{
+    text-align: left;
+}
+a{
+    text-align: right;
+}
+
+.split{
+    border: 10px;
+    margin-top: 10px;
+    padding: 8px;
+    padding-left: 28px;
+    text-align: right;
+}
+.selection{
+    display: flex;
+}
+.vertical{
+    border-left: 1px solid black;
+    height: 219px;
+    margin-left: 40px;
+    margin-top: 24px;
+}
+.vertical-2{
+    border-left: 1px solid black;
+    height: 250px;
+    margin-left: 40px;
+}
+.textfooter{
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 12px;   
+    color: black; 
+    font-family: 'Ubuntu', sans-serif;
+    background:cadetblue;
+    text-align: right;
+}
+
+.table{
+    background: skyblue;
+    text-align: center;
+}
+table{
+    margin-left: 30px;
+    border: 1px solid black;
+}
+th{
+    border: 1px solid black;
+    padding: 0 70px;
+}
+.press{
+    border: 1px solid black;
+    width: 60%;
+    margin-left: 20px;
+}
+.press h1:hover{
+    background: blue;
+    width: 20%;
+}
+@media only screen and (max-width: 960px){
+
+    ul li{
+        display: block;
+        max-width: 100%;
+    }
+
+    .burger{
+        display: block;
+    }
+    ul{
+        display: none;
+    }
+}
